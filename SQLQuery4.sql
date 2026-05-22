@@ -1,0 +1,4 @@
+ALTER TABLE TestReports ADD ReportPath VARCHAR(500) NULL;
+
+DELETE FROM TestReports;
+DELETE FROM Patients;
